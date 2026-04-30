@@ -89,18 +89,23 @@ box-shadow:0 5px 15px rgba(0,0,0,0.4);
 
 .tour{
 display:flex;
+justify-content:space-between;
 align-items:flex-start;
 
 background:rgba(255,255,255,0.9);
 padding:20px;
 margin:30px auto;
 
-border-radius:10px;
+border-radius:15px;
 
 max-width:900px;
+box-shadow:0 5px 20px rgba(0,0,0,0.3);
+transition:0.3s;
 }
 
-
+.tour:hover{
+transform:scale(1.03);
+}
 
 .tour-left{
 display:flex;
@@ -130,7 +135,31 @@ font-size:16px;
 text-align:left;
 }
 
+.cart-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
 
+background:rgba(255,255,255,0.9);
+padding:15px;
+margin:15px auto;
+max-width:800px;
+
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+color:black;
+}
+
+.cart-item button{
+margin:0 5px;
+}
+
+.total{
+font-weight:bold;
+font-size:20px;
+color:white;
+margin-top:20px;
+}
 
 .tour:hover{
 transform:scale(1.03);
@@ -169,4 +198,31 @@ margin-bottom:15px;
 text-align:center;
 }
 
+.cart-item{
+flex-direction:column;
+text-align:center;
+}
+
+}
+.page-title{
+    text-align:center;
+    color:white;
+    margin-top:40px;
+    font-size:40px;
+}
+
+/* Порожній кошик */
+.empty-cart{
+    text-align:center;
+    color:white;
+    font-size:22px;
+    margin-top:40px;
+}
+
+/* TOTAL */
+.total-text{
+    text-align:center;
+    color:white;
+    font-size:28px;
+    margin-top:30px;
 }
