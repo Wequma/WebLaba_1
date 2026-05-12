@@ -1,34 +1,11 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Тури</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
 <div id="app">
 
-<header>
 <h1>Наші тури</h1>
 
-<nav>
-<a href="index.html">Головна</a>
-<a href="tours.html">Тури</a>
-<a href="contact.html">Контакти</a>
-<a href="cart.html">Кошик</a>
-</nav>
-</header>
-
-<section>
-
-<!-- ІТАЛІЯ -->
 <div class="tour">
 <div class="tour-left">
 <h3>Італія</h3>
-<img src="PhotoForWeb_4.jpg">
+<img src="/Web_1/PhotoForWeb_4.jpg">
 </div>
 
 <div class="tour-info">
@@ -44,17 +21,13 @@ price:900
 })">
 Додати в кошик
 </button>
-
+</div>
 </div>
 
-</div>
-
-<!-- ФРАНЦІЯ -->
 <div class="tour">
-
 <div class="tour-left">
 <h3>Франція</h3>
-<img src="PhotoForWeb_3.jpg">
+<img src="/Web_1/PhotoForWeb_3.jpg">
 </div>
 
 <div class="tour-info">
@@ -70,17 +43,13 @@ price:850
 })">
 Додати в кошик
 </button>
-
+</div>
 </div>
 
-</div>
-
-<!-- ТУРЕЧЧИНА -->
 <div class="tour">
-
 <div class="tour-left">
 <h3>Туреччина</h3>
-<img src="PhotoForWeb_2.jpg">
+<img src="/Web_1/PhotoForWeb_2.jpg">
 </div>
 
 <div class="tour-info">
@@ -96,18 +65,7 @@ price:700
 })">
 Додати в кошик
 </button>
-
+</div>
 </div>
 
 </div>
-
-</section>
-
-</div>
-
-<!-- ВАЖЛИВО: Vue ПЕРЕД cart.js -->
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="cart.js"></script>
-
-</body>
-</html>
